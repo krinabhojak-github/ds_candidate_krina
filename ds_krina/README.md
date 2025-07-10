@@ -1,15 +1,4 @@
-ds_JohnDoe/
-├── notebook_1.ipynb
-├── ds_report.pdf
-├── README.md
-├── csv_files/
-│   └── cleaned_sentiment.csv
-│   └── cleaned_trader_data.csv
-├── outputs/
-│   └── sentiment_trend.png
-│   └── profit_by_sentiment.png
-│   └── leverage_by_sentiment.png
-│   └── volume_by_sentiment.png
+
 
 # Data Science Assignment: Web3 Trading Team
 ## Project Description
