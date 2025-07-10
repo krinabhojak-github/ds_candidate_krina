@@ -13,7 +13,7 @@ ds_JohnDoe/
 
 # Data Science Assignment: Web3 Trading Team
 ## Project Description
-This project analyzes trader behavior in the Web3 trading ecosystem by correlating Bitcoin Market Sentiment data (Fear/Greed classifications) with Historical Trader Data (e.g., account, symbol, execution price, size, side, time, closedPnL, leverage). The objective is to identify trends in profitability, leverage, and trade volume across market sentiment periods and propose data-driven trading strategies. The analysis is conducted in a Google Colab notebook <sub>(notebook_1.ipynb)</sub>, with results summarized in <sub>ds_report.pdf</sub> and visualizations in the <sub>outputs</sub> folder.
+This project analyzes trader behavior in the Web3 trading ecosystem by correlating Bitcoin Market Sentiment data (Fear/Greed classifications) with Historical Trader Data (e.g., account, symbol, execution price, size, side, time, closedPnL, leverage). The objective is to identify trends in profitability, leverage, and trade volume across market sentiment periods and propose data-driven trading strategies. The analysis is conducted in a Google Colab notebook `(notebook_1.ipynb)`, with results summarized in `ds_report.pdf` and visualizations in the `outputs` folder.
 ## How to Install and Run the Project:
 ### Open the Notebook in Google Colab:
 * Access the notebook via the provided link: Notebook 1.
@@ -25,31 +25,31 @@ This project analyzes trader behavior in the Web3 trading ecosystem by correlati
 
 ### Run the Notebook:
 * Open the Colab link.
-* <sub>Click Runtime</sub> > <sub>Run all</sub> to execute all cells.
-* The notebook automatically loads datasets from <sub>csv_files</sub> and generates visualizations in <sub>outputs</sub>.
+* `Click Runtime` > `Run all` to execute all cells.
+* The notebook automatically loads datasets from `csv_files` and generates visualizations in `outputs`.
 
 
 ## How to Use the Project
 
 ### Explore the Notebook:
-Review <sub>notebook_1.ipynb</sub> in Colab to see data cleaning, merging, exploratory data analysis (EDA), and statistical tests (e.g., t-tests comparing profitability in Fear vs. Greed periods).
+Review `notebook_1.ipynb` in Colab to see data cleaning, merging, exploratory data analysis (EDA), and statistical tests (e.g., t-tests comparing profitability in Fear vs. Greed periods).
 
 
 ## View Results:
-Check <sub>ds_report.pdf</sub> for a detailed summary of findings and proposed trading strategies.
-Inspect visualizations in <sub>outputs</sub>:
-<sub>sentiment_trend.png</sub>: Market sentiment over time.
-<sub>profit_by_sentiment.png</sub>: Profitability by sentiment.
-<sub>leverage_by_sentiment.png</sub>: Leverage usage by sentiment.
-<sub>volume_by_sentiment.png</sub>: Trade volume by sentiment.
+Check `ds_report.pdf` for a detailed summary of findings and proposed trading strategies.
+Inspect visualizations in `outputs`:
+`sentiment_trend.png`: Market sentiment over time.
+`profit_by_sentiment.png`: Profitability by sentiment.
+`leverage_by_sentiment.png`: Leverage usage by sentiment.
+`volume_by_sentiment.png`>: Trade volume by sentiment.
 
 
 ## Datasets:
-<sub>csv_files/cleaned_sentiment.csv</sub>: Processed Bitcoin Market Sentiment data (<sub>Date</sub>, <sub>Classification</sub>).
-<sub>csv_files/cleaned_trader_data.csv</sub>: Processed Historical Trader Data (<sub>account</sub>, <sub>symbol</sub>, etc.).
+`csv_files/cleaned_sentiment.csv`: Processed Bitcoin Market Sentiment data (`Date`, `Classification`).
+`csv_files/cleaned_trader_data.csv`: Processed Historical Trader Data (`account`, `symbol`, etc.).
 
 ## Reproduce Analysis:
-Upload <sub>cleaned_sentiment.csv</sub> and <sub>cleaned_trader_data.csv</sub> to Colab if prompted.
+Upload `cleaned_sentiment.csv` and `cleaned_trader_data.csv` to Colab if prompted.
 Follow the notebook’s instructions to rerun the analysis.
 
 ## Credits
