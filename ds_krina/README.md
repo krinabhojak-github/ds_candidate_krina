@@ -38,26 +38,21 @@ Review <sub>notebook_1.ipynb</sub> in Colab to see data cleaning, merging, explo
 ## View Results:
 Check <sub>ds_report.pdf</sub> for a detailed summary of findings and proposed trading strategies.
 Inspect visualizations in <sub>outputs</sub>:
-sentiment_trend.png: Market sentiment over time.
-profit_by_sentiment.png: Profitability by sentiment.
-leverage_by_sentiment.png: Leverage usage by sentiment.
-volume_by_sentiment.png: Trade volume by sentiment.
+<sub>sentiment_trend.png</sub>: Market sentiment over time.
+<sub>profit_by_sentiment.png</sub>: Profitability by sentiment.
+<sub>leverage_by_sentiment.png</sub>: Leverage usage by sentiment.
+<sub>volume_by_sentiment.png</sub>: Trade volume by sentiment.
 
 
+## Datasets:
+<sub>csv_files/cleaned_sentiment.csv</sub>: Processed Bitcoin Market Sentiment data (<sub>Date</sub>, <sub>Classification</sub>).
+<sub>csv_files/cleaned_trader_data.csv</sub>: Processed Historical Trader Data (<sub>account</sub>, <sub>symbol</sub>, etc.).
 
-
-Datasets:
-csv_files/cleaned_sentiment.csv: Processed Bitcoin Market Sentiment data (Date, Classification).
-csv_files/cleaned_trader_data.csv: Processed Historical Trader Data (account, symbol, etc.).
-
-
-Reproduce Analysis:
-Upload cleaned_sentiment.csv and cleaned_trader_data.csv to Colab if prompted.
+## Reproduce Analysis:
+Upload <sub>cleaned_sentiment.csv</sub> and <sub>cleaned_trader_data.csv</sub> to Colab if prompted.
 Follow the notebook’s instructions to rerun the analysis.
 
-
-
-Credits
+## Credits
 
 Candidate: krina
 Datasets: Provided by the Web3 Trading Team as part of the assignment.
